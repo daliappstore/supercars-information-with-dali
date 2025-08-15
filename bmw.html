@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose a BMW Car</title>
+    <style>
+        body {
+            background-color: #000;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .brand-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end; 
+        }
+        .bmw-car-img {
+            width: 300px;
+            height: auto;
+            border-radius: 30px;
+            padding: 10px;
+            transition: transform 0.2s ease;
+        }
+        .bmw-car-img:hover {
+            transform: scale(1.1);
+        }
+        .brand-container p {
+            font-size: 1.2em;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Choose a BMW Car</h1>
+    <img src="bmw logo.png" alt="BMW Logo" style="width: 150px; height: auto; margin-bottom: 20px;">
+    <div class="brand-container">
+        <a href="e60.html">
+            <img src="BMW-M5-E60.png" alt="BMW M5 E60" class="bmw-car-img">    
+        </a>
+        <p class="brand-container p ">BMW M5 E60</p>
+    </div>
+    <div class="brand-container">
+        <a href="m3 gtr.html">
+            <img src="m3 gtr.png" alt="BMW m3 gtr" class="bmw-car-img">    
+        </a>
+        <p class="brand-container p ">BMW M3 GTR</p>
+    </div>
+    <div class="brand-container">       
+        <a href="m5 cs.html">
+            <img src="m5-cs-bwm.png" alt="BMW M4 CS" class="bmw-car-img">    
+        </a>
+        <p class="brand-container p ">BMW M5 CS</p>
+</body>
+</html>
